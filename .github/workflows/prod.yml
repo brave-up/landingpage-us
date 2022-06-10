@@ -19,5 +19,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
           aws-region: us-east-1
 
-      - name: Deploy static site to S3 bucket
-        run: aws s3 sync . s3://usa.braveup.com --acl public-read
+      - name: Deploy site to S3
+        run: aws s3 sync . s3://usa.braveup.com --delete
