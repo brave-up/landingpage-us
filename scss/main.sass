@@ -1,0 +1,221 @@
+// Make sure you have Sass installed glabaly
+// Run ==> sass --watch scss/main.scss css/style.css
+// Import base
+@import "./base/colors", "./base/default", "./base/fonts"
+// Import Layout
+@import "./layout/Header", "./layout/Hero"
+
+// reset
+*
+  padding: 0px
+  margin: 0px
+
+  h1
+    @include Headline__03-Bold
+
+header
+  background: $lightblue-700
+  width: auto
+  height: 32px
+  padding: 16px 8px
+  display: flex
+  align-items: center
+  position: sticky
+  top: 0
+  box-sizing: content-box
+  
+  img.logo
+    height: 24px
+    
+main
+
+  section
+    display: flex
+    justify-content: center
+    .content
+      padding: 24px 8px
+      gap: 24px
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      @include media-medium
+        width: 860px
+    .body
+        display: block
+        @include Body__01-Regular
+        width: 100%
+    .video-player
+      width: calc(100% - 16px)
+      border-radius: 8px
+      margin: 24px 0px
+      aspect-ratio: 16/9
+
+  section.hero
+    width: 100%
+    height: auto
+    background: $lightblue-700
+    justify-content: center
+    
+    .title
+      width: 100%
+      .braveup-title
+        @include Subtitle__01-Bold
+        color: $white-900
+      
+      h1
+        color: $white-900
+    .body
+        color: $white-900
+
+      
+      
+  section.description
+    .body
+      color: $grey-700
+
+  section.decorative
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: -1px
+
+  section.list
+    margin-top: 48px
+    .title
+      @include Headline__03-Bold
+      color: $grey-900
+    ul
+      display: flex
+      flex-direction: column
+      gap: 8px
+      @include media-small
+        width: 480px
+      @include media-medium
+        width: 100%
+        flex-direction: row
+        flex-wrap: wrap
+        
+      li
+        @include Body__02-Regular
+        color: $white-900
+        padding: 16px
+        background-color: $lightblue-500
+        list-style: none
+        border-radius: 8px
+        display: flex
+
+        @include media-medium
+          flex: 25%
+          text-align: center
+          font-size: 16px
+          font-weight: bold
+
+  section.why
+    margin-top: 48px
+    .title
+      @include Headline__03-Bold
+      color: $grey-900
+    ul
+      display: flex
+      flex-direction: column
+      gap: 8px
+      @include media-small
+        width: 480px
+      @include media-medium
+        width: 100%
+        flex-direction: row
+        flex-wrap: wrap
+        
+      li
+        @include Body__02-Regular
+        display: flex
+        flex-direction: column
+        color: $grey-700
+        padding: 16px
+        list-style: none
+        border-radius: 8px
+        align-items: center
+        gap: 16px
+        @include media-medium
+          flex: 25%
+          text-align: center
+          font-size: 16px
+        .title-list
+          @include Headline__05-Bold
+          text-transform: uppercase
+          width: 100%
+          text-align: center
+        p
+          text-align: center
+          @include media-medium
+            text-align: left
+        .illu
+          width: 80px
+
+  section:last-child
+    margin-bottom: 128px
+
+  span.wave
+    display: block
+    width: 110%
+    height: 69px
+    background-image: url("/assets/images/wave.svg")
+    background-repeat: no-repeat
+    margin-top: -1px
+    background-size: contain
+    @include media-small
+      height: 85px
+    @include media-medium
+      height: 108px
+    @include media-large
+      height: 150px
+    @include media-xlarge
+      height: 270px
+
+  .laptop-image
+    width: 540px
+    margin-top: -100px
+    @include media-small
+      margin-top: -115px
+    @include media-medium
+      width: 760px
+      margin-top: -160px
+    @include media-xlarge
+      width: 900px
+      margin-top: -329px
+
+footer
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  padding: 16px 16px 24px 16px
+  width: 100%
+  height: 48px
+  position: fixed
+  bottom: 0
+  box-sizing: border-box
+  gap: 16px
+
+// components
+
+.button
+  width: 220px
+  height: 42px
+  color: $white-900
+  text-decoration: none
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 40px
+  &.secondary
+    background-color: $violet-700
+  &.small
+    width: 42px
+  &:hover
+    background-color: $violet-500
+  span.label
+    @include Subtitle__02-Bold
+    color: $white-900
+    text-transform: uppercase

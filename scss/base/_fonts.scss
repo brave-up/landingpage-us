@@ -1,0 +1,264 @@
+@import './tokens';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+@mixin Headline__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-000;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: -0.5%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__01-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-000;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: -0.5%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__01-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-000;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: -0.5%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__02-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-001;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__02-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-001;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__02-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-001;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__03-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-002;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__03-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-002;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__03-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-002;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__03-Black{
+  font-family: $font-family-000;
+  font-size: $font-size-002;
+  font-weight: $font-weight-003;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__04-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-003;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__04-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-003;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__04-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-003;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__04-Black{
+  font-family: $font-family-000;
+  font-size: $font-size-003;
+  font-weight: $font-weight-003;
+  text-transform: none;
+  letter-spacing: 0%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__05-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-004;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__05-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-004;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__05-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-004;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Headline__05-Black{
+  font-family: $font-family-000;
+  font-size: $font-size-004;
+  font-weight: $font-weight-003;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-005;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__01-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-005;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__01-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-005;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0.15000000596046448%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__02-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-000;
+  text-transform: none;
+  letter-spacing: 0.10000000149011612%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__02-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0.10000000149011612%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Subtitle__02-Bold{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 0.10000000149011612%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Body__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-005;
+  font-weight: $font-weight-000;
+  line-height: 129.99999523162842%;
+  text-transform: none;
+  letter-spacing: 0.5%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Body__02-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-000;
+  line-height: 135.0000023841858%;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Button__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 1.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Button__01-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-006;
+  font-weight: $font-weight-002;
+  text-transform: none;
+  letter-spacing: 1.25%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Caption__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-007;
+  font-weight: $font-weight-000;
+  line-height: 124.18750524520874%;
+  text-transform: none;
+  letter-spacing: 0.4000000059604645%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Caption__01-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-007;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 0.4000000059604645%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Overline__01-Regular{
+  font-family: $font-family-000;
+  font-size: $font-size-008;
+  font-weight: $font-weight-000;
+  line-height: 122.18749523162842%;
+  text-transform: none;
+  letter-spacing: 1.5%;
+  -pt-paragraph-spacing: 0;
+}
+@mixin Overline__01-Medium{
+  font-family: $font-family-000;
+  font-size: $font-size-008;
+  font-weight: $font-weight-001;
+  text-transform: none;
+  letter-spacing: 1.5%;
+  -pt-paragraph-spacing: 0;
+}
