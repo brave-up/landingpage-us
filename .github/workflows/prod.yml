@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync . s3://usa.braveup.com --delete --acl public-read
+        run: aws s3 sync . s3://usa.braveup.com --acl public-read
