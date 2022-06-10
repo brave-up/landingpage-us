@@ -3,13 +3,14 @@
 * {
   padding: 0px;
   margin: 0px; }
-  * h1 {
-    font-family: Roboto;
-    font-size: 34px;
-    font-weight: 700;
-    text-transform: none;
-    letter-spacing: 0.25%;
-    -pt-paragraph-spacing: 0; }
+
+h1 {
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0; }
 
 header {
   background: #17bebb;
@@ -71,8 +72,6 @@ main section.hero {
       color: #ffffff; }
   main section.hero .body {
     color: #ffffff; }
-main section.description .body {
-  color: #585b5b; }
 main section.decorative {
   overflow: hidden;
   display: flex;
@@ -181,13 +180,37 @@ main section.why {
             text-align: left; } }
       main section.why ul li .illu {
         width: 80px; }
+main section.contact .title {
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0.25%;
+  -pt-paragraph-spacing: 0;
+  color: #2f3838; }
+main section.contact .contacts {
+  display: flex;
+  gap: 16px; }
+  main section.contact .contacts .single {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #585b5b;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0.15000000596046448%;
+    -pt-paragraph-spacing: 0; }
+    main section.contact .contacts .single .phone {
+      color: #17bebb; }
 main section:last-child {
   margin-bottom: 128px; }
 main span.wave {
   display: block;
   width: 110%;
   height: 69px;
-  background-image: url("/assets/images/wave.svg");
+  background-image: url("./assets/images/wave.svg");
   background-repeat: no-repeat;
   margin-top: -1px;
   background-size: contain; }

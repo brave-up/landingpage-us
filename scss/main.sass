@@ -1,5 +1,3 @@
-// Make sure you have Sass installed glabaly
-// Run ==> sass --watch scss/main.scss css/style.css
 // Import base
 @import "./base/colors", "./base/default", "./base/fonts"
 // Import Layout
@@ -10,8 +8,8 @@
   padding: 0px
   margin: 0px
 
-  h1
-    @include Headline__03-Bold
+h1
+  @include Headline__03-Bold
 
 header
   background: $lightblue-700
@@ -68,11 +66,6 @@ main
     .body
         color: $white-900
 
-      
-      
-  section.description
-    .body
-      color: $grey-700
 
   section.decorative
     overflow: hidden
@@ -153,6 +146,22 @@ main
             text-align: left
         .illu
           width: 80px
+  section.contact
+    .title
+      @include Headline__03-Bold
+      color: $grey-900
+    .contacts
+      display: flex
+      gap: 16px
+      .single
+        display: flex
+        flex-direction: column
+        gap: 8px
+        color: $grey-700
+        @include Headline__05-Bold
+        .phone
+          color: $lightblue-700
+
 
   section:last-child
     margin-bottom: 128px
@@ -161,7 +170,7 @@ main
     display: block
     width: 110%
     height: 69px
-    background-image: url("/assets/images/wave.svg")
+    background-image: url("./assets/images/wave.svg")
     background-repeat: no-repeat
     margin-top: -1px
     background-size: contain
