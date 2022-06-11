@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy site to S3
-        run: aws s3 sync . s3://usa.braveup.com --delete
+        run: aws s3 sync . s3://school.braveup.com --delete
