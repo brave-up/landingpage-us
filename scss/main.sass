@@ -114,6 +114,7 @@ main
       display: flex
       flex-direction: column
       gap: 8px
+      align-items: flex-start
       @include media-small
         width: 480px
       @include media-medium
@@ -160,7 +161,10 @@ main
         flex-direction: column
         gap: 8px
         color: $grey-700
+        align-items: center
         @include Headline__05-Bold
+        .name
+          @include Headline__04-Bold
         .phone
           color: $lightblue-700
 

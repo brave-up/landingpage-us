@@ -1,1 +1,12 @@
 .DS_Store
+.sass-cache/825e1238565feec12bbf1c52312a22dd8046412f/_Header.sassc
+.sass-cache/825e1238565feec12bbf1c52312a22dd8046412f/_Hero.sassc
+.sass-cache/8bf4e72013a1f3626484926d6478c0e8cd8d4d81/main.sassc
+.sass-cache/fe85abd67f54809e867ca9e3e41affe3136dd0eb/_colors.scssc
+.sass-cache/fe85abd67f54809e867ca9e3e41affe3136dd0eb/_default.scssc
+.sass-cache/fe85abd67f54809e867ca9e3e41affe3136dd0eb/_fonts.scssc
+.gitignore
+.sass-cache/fe85abd67f54809e867ca9e3e41affe3136dd0eb/_mediaqueries.scssc
+.sass-cache/fe85abd67f54809e867ca9e3e41affe3136dd0eb/_tokens.scssc
+.gitignore
+css/style.css.map

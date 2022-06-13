@@ -133,7 +133,8 @@ main section.why {
   main section.why ul {
     display: flex;
     flex-direction: column;
-    gap: 8px; }
+    gap: 8px;
+    align-items: flex-start; }
     @media (min-width: 576px) {
       main section.why ul {
         width: 480px; } }
@@ -198,12 +199,20 @@ main section.contact .contacts {
     flex-direction: column;
     gap: 8px;
     color: #585b5b;
+    align-items: center;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
     text-transform: none;
     letter-spacing: 0.15000000596046448%;
     -pt-paragraph-spacing: 0; }
+    main section.contact .contacts .single .name {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: none;
+      letter-spacing: 0%;
+      -pt-paragraph-spacing: 0; }
     main section.contact .contacts .single .phone {
       color: #17bebb; }
 main section:last-child {
