@@ -215,6 +215,9 @@ main section.contact .contacts {
       -pt-paragraph-spacing: 0; }
     main section.contact .contacts .single .phone {
       color: #17bebb; }
+main section.contact .calendly {
+  width: 120px;
+  margin-top: 24px; }
 main section:last-child {
   margin-bottom: 128px; }
 main span.wave {
