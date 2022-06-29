@@ -265,6 +265,14 @@ footer {
   bottom: 0;
   box-sizing: border-box;
   gap: 16px; }
+  footer .address {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0.10000000149011612%;
+    -pt-paragraph-spacing: 0;
+    color: #585b5b; }
 
 .button {
   width: 220px;
